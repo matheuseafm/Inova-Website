@@ -42,11 +42,12 @@ body{
 
 .sobre-nos-texto a{
     text-decoration: underline;
-    color: rgb(169, 178, 197);
+    color: rgb(142, 149, 163);
 }
 
 .sobre-nos-texto a:hover{
     color: black;
+    transition: 0.3s;
 
 }
 
@@ -63,7 +64,13 @@ body{
 }
 
 .sobre-nos-texto p{
-    color: rgb(169, 178, 197);
+    color: rgb(142, 149, 163);
 
+}
+
+.text-reset-products{
+    text-decoration: none;
+    cursor: default;
+    color: rgb(89,91,94);
 }
 
