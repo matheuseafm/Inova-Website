@@ -7,6 +7,10 @@
 
 }
 
+*::-webkit-scrollbar {
+    width: 0px;
+}
+
 body{
     overflow-x: hidden;
 }
@@ -19,6 +23,21 @@ body{
     color: rgb(0, 0, 0);
     text-decoration: none;
     
+}
+
+.linha-vertical{
+    height: 20px;
+    border-left: 1px solid;
+    background-color: black;
+    margin-right: 5px;
+}
+
+@media (max-width: 991px) {
+    .linha-vertical {
+        width: 120px; 
+        height: 1px;         
+        margin-bottom: 10px;
+    }
 }
 
 .background{
@@ -66,6 +85,41 @@ body{
 .sobre-nos-texto p{
     color: rgb(142, 149, 163);
 
+}
+
+.background button{
+    background-color: rgb(103, 112, 133);
+    border-radius: 4px;
+    border-style: none;
+    box-sizing: border-box;
+    color: #fff;
+    cursor: pointer;
+    display: inline-block;
+    font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin: 0;
+    max-width: none;
+    min-height: 44px;
+    min-width: 10px;
+    outline: none;
+    overflow: hidden;
+    padding: 9px 20px 8px;
+    position: relative;
+    text-align: center;
+    text-transform: none;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: 100%;
+}
+
+
+.background button:hover{
+    opacity: .85;
+    transition: 0.2s;
+    box-shadow: rgb(135,147,172) 0 1px 30px;
 }
 
 .text-reset-products{
