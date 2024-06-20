@@ -7702,6 +7702,29 @@ textarea.form-control-lg {
   margin-left: 0 !important;
 }
 
+.modal-content {
+  padding: 20px;
+}
+
+.modal-body h2 {
+  font-size: 1.5rem; /* Ajuste o tamanho do texto do título */
+  word-wrap: break-word; /* Permite quebra de linha para palavras longas */
+}
+
+.modal-body p.item-intro {
+  font-size: 1rem; /* Ajuste o tamanho do texto de introdução */
+}
+
+.modal-body img {
+  max-width: 100%; /* Garante que a imagem se ajuste ao tamanho do contêiner pai */
+  height: auto; /* Mantém a proporção da imagem */
+}
+
+.modal-dialog {
+  max-width: 100%; /* Garante que o modal se ajuste ao tamanho da tela */
+  margin: 0;
+}
+
 .mx-1 {
   margin-right: 0.25rem !important;
   margin-left: 0.25rem !important;
